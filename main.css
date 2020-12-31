@@ -1,0 +1,147 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+#main {
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px; /* Negative half of height. */
+  margin-left: -300px;
+  align-items: center;
+  text-align: center;
+}
+
+#header {
+  margin-right: 25px;
+}
+
+#googleImage {
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#buttonSearch {
+  margin-left: 70px;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(top, #f8f9fa, #f8f9fa);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+#totalList {
+  list-style: none;
+  display: flex;
+  float: right;
+  flex-direction: row;
+}
+
+.list {
+  margin-right: 5px;
+}
+
+svg {
+  height: 25px;
+  width: 25px;
+}
+
+.img1 {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}
+
+.list2 {
+  margin: 2px 10px 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: #70757a;
+  box-sizing: content-box;
+  z-index: auto;
+  line-height: 40px;
+  float: none;
+  background-color: #f2f2f2;
+  border-top: 1px solid #dadce0;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#listOne {
+  float: left;
+  margin-left: 25px;
+}
+
+#listTwo {
+  float: right;
+  margin-right: 25px;
+}
+
+a {
+  margin: auto 10px;
+  text-decoration: none;
+  color: #3c4043;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3c4043;
+}
+
+.search {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 50px;
+  border: 1px solid #dcdcdc;
+}
+.search:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.search:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+.searchBar {
+  height: 40px;
+  border: none;
+  width: 500px;
+  font-size: 16px;
+  outline: none;
+}
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
